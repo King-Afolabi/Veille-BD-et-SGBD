@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Base de Données</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">BD & SGBD</a></h1>
+						<nav id="nav">
+							<ul>
+								<li class="special">
+									<a href="#menu" class="menuToggle"><span>Menu</span></a>
+									<div id="menu">
+										<ul>
+											<li><a href="index.html">Accueil</a></li>
+											<li><a href="bd.html">Base de Données</a></li>
+											<li><a href="sgbd.html">SGBD</a></li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Main -->
+					<article id="main">
+						<header>
+							<h2>Base de Données</h2>
+							<p>Une base de données est un système électronique qui permet d'accéder facilement à un ensemble organisé de données, de les manipuler et de les mettre à jour.</p>
+						</header>
+						<section class="wrapper style5">
+							<div class="inner">
+
+								<h3>Conformité ACID</h3>
+								<ul>
+									<li><p><strong>Le principe d’Atomicité </strong> garantit la bonne exécution de la transaction. Les transactions de base de données, comme les atomes, peuvent être décomposées en plus petites parties. 
+										Si une partie d'une transaction échoue, toute la transaction sera annulée.</p></li>
+									<li><p> <strong>La propriété de Cohérence </strong> signifie que seules les données qui suivent des règles prédéfinies peuvent être écrites dans la base de données. </p></li>
+
+									<li><p><strong> L’isolement </strong> fait référence à la capacité de traiter simultanément plusieurs transactions de manière indépendante.</p></li>
+									<li><p><strong> La durabilité </strong> requiert de rendre les défaillances invisibles pour l'utilisateur final. Les données sont sauvegardées une fois la transaction terminée, même en cas de panne de courant ou de défaillance du système.</p></li>
+								</ul>
+								<hr />
+
+								<h3>Fonctionnement</h3>
+								<p>Une base de données est stockée sous la forme d'un fichier ou d'un ensemble de fichiers sur un disque ou un disque magnétique, un disque optique ou tout autre support de stockage. 
+									L'information contenue dans ces fichiers peut être divisée en enregistrements. Ces enregistrements sont constitués d'un ou de plusieurs champs. Un champ constitue une seule pièce d’information, et chaque champ contient généralement des informations se rapportant à un aspect ou attribut de l'entité décrite par la base de données.</p>
+
+								<p>Les enregistrements sont également organisés en tableaux qui contiennent des informations sur les relations entre les différents champs. 
+									À l'aide de mots-clés et de diverses commandes de tri, les utilisateurs peuvent rapidement rechercher, réorganiser, regrouper et sélectionner les champs dans de nombreux enregistrements pour récupérer ou créer des rapports sur des agrégats particuliers de données.</p>
+
+								<hr />
+
+								<h3>Types</h3>
+								<ul>
+									<li><p><strong>Base de données relationnelle</strong> <br> 
+										Une base de données relationnelle est une base de données où l'information est organisée dans des tableaux à deux dimensions appelés des relations ou tables, selon le modèle introduit par Edgar F. Codd en 1970.
+										 Selon ce modèle relationnel, une base de données consiste en une ou plusieurs relations.</p></li>
+									
+									<li><p> <strong>Base de données orientée objet </strong> <br> 
+										Une base de données à objets est un stock d'informations groupées sous formes de collections d'objets persistants. 
+										Une base de données est un ensemble d'informations connexes stockées dans un dispositif informatique. </p></li>
+
+									<li><p><strong>Base de données orientée texte</strong> <br> 
+										Une database orientée texte, ou flat file database, se présente sous la forme d’un fichier (une table) au format .txt ou .ini. Un fichier plat est un fichier texte, ou un fichier combinant du texte avec un fichier binaire. 
+										En général, dans ces bases de données, chaque ligne ne comporte qu’un enregistrement.
+										La plupart des bases de données pour PC sont des bases de données orientées texte.</p></li>
+										
+									<li><p> <strong>Base de données orientée graph </strong> <br> 
+										Une base de données orientée graphe, ou graphe, est un type de database NoSQL utilisant la théorie des graphes pour stocker, cartographier et effectuer des requêtes sur les relations entre les données. 
+										Les bases de données graphe sont constituées de noeuds et de bords. </p></li>
+	
+									<li><p><strong> Base de données distribuée  </strong> <br>
+										Une base de données distribuée ou BDD est une base de données dont la gestion est traitée par un réseau d'ordinateurs interconnectés qui stockent des données de manière distribuée.</p></li>
+	
+									<li><p><strong> Base de données NoSQL  </strong> <br>
+										Les bases de données NoSQL sont utiles pour les larges ensembles de données distribuées. En effet, les bases de données relationnelles ne sont pas conçues pour le Big Data, et les ensembles de données trop larges peuvent poser des problèmes de performances.</p></li>
+									
+									<li><p><strong> Base de données réseau  </strong> <br>
+										Les bases de données réseau sont également parmi les plus anciennes. Plutôt que de proposer des liens uniques entre différents ensembles de données à divers niveaux, les bases de données réseaux créent des liens multiples entre les ensembles en plaçant des liens, ou des pointeurs, sur un ensemble d’enregistrements ou un autre. 
+										La vitesse et la polyvalence des bases de données réseau ont conduit à une adoption massive de ce type de databases au sein des entreprises ou dans le domaine du e-commerce.</p></li>
+
+									<li><p><strong> Base de données hiérarchique  </strong> <br>
+										Les bases de données hiérarchiques comptent parmi les plus anciennes bases de données. Au sein de cette catégorie, les enregistrements sont organisés dans une structure d’arborescence. 
+										Chaque niveau d’enregistrements découle sur un ensemble de catégories plus petites.</p></li>
+									
+									<li><p><strong> Base de données cloud  </strong> <br>
+										Dans ce cadre, elle est optimisée ou directement créée pour les environnements virtualisés. 
+										Il peut s’agir d’un cloud privé, d’un cloud public ou d’un cloud hybride.</p></li>
+	
+									
+								</ul>
+							</div>
+						</section>
+					</article>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<ul class="icons">
+							<li><a href="https://mobile.twitter.com/home" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="https://web.facebook.com/?_rdc=1&_rdr" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="mailto:abubacarafolabi@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>&copy;</li><li>Design: <a href="https://www.linkedin.com/feed/?trk=nav_logo">King Afolabi</a></li>
+						</ul>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
